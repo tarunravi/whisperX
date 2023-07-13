@@ -77,7 +77,7 @@ def load_model(whisper_arch,
         "word_timestamps": False,
         "prepend_punctuations": "\"'“¿([{-",
         "append_punctuations": "\"'.。,，!！?？:：”)]}、",
-        "suppress_numerals": False,
+        "suppress_numerals": True,
     }
 
     if asr_options is not None:
